@@ -1,0 +1,9 @@
+Osservazioni esercitazione 5:
+Riprendendo il programma measure_sort.cpp dell''esercitazione 4, dopo un paio di tentativi, son state aggiunte piu dimensioni dei vettori cosi da poter fare un'indagine più accurata. 
+Questi sono i risultati ottenuti:
+per N tra 3 e 15 si può osservare che Insertion sort è il metodo più rapido.
+per N tra i 16 e i 45 circa in generale si osserva già che il quick è più rapido del bubble e del selection, mentre rimane circa efficiente come il selection.
+indicativamente per N superiore di 45 il quick risulta essere molto più efficiente dell'insertion.
+In generale il quick hybrid che utilizza il metodo dell'insertion per vettori inferiori alla dimensione 16 e il quick per vettori più grandi risulta essere il più efficiente come previsto vedendo i risultati precedenti.
+Si può anche osservare che per N della grandezza di 50 circa anche il merge risulta più efficiente dei metodi con ordine di convergenza quadratico.
+Tutti gli algoritmi (incluso l'ibrido) sono stati verificati tramite test unitari su 100 vettori
